@@ -19,14 +19,6 @@ isDivBy100 = mod(year,100) == 0;
 isDivBy4   = mod(year,  4) == 0;
 
 % Check for leap year
-if isDivBy400
-    isLeap = true;
-elseif isDivBy4
-    isLeap = true;
-elseif isDivBy100
-    isLeap = false;
-else
-    isLeap = false;
-end
+isLeap = isDivBy400 || (isDivBy4 && ~isDivBy100);
 
 end
