@@ -93,73 +93,6 @@
                 </Category>
             </Info>
         </File>
-        <File Location="codeAdvanced">
-            <Info/>
-            <DIR_SIGNIFIER Location="1">
-                <Info/>
-            </DIR_SIGNIFIER>
-            <File Location="areaOfTriangle.m">
-                <Info>
-                    <Category UUID="FileClassCategory">
-                        <Label UUID="design"/>
-                    </Category>
-                </Info>
-            </File>
-            <File Location="distanceBetweenPoints.m">
-                <Info>
-                    <Category UUID="FileClassCategory">
-                        <Label UUID="design"/>
-                    </Category>
-                </Info>
-            </File>
-            <File Location="typeOfTriangle.m">
-                <Info>
-                    <Category UUID="FileClassCategory">
-                        <Label UUID="design"/>
-                    </Category>
-                </Info>
-            </File>
-        </File>
-        <File Location="codeSimple">
-            <Info/>
-            <DIR_SIGNIFIER Location="1">
-                <Info/>
-            </DIR_SIGNIFIER>
-            <File Location="isLeapYear.m">
-                <Info>
-                    <Category UUID="FileClassCategory">
-                        <Label UUID="design"/>
-                    </Category>
-                </Info>
-            </File>
-            <File Location="rockPaperScissors.m">
-                <Info>
-                    <Category UUID="FileClassCategory">
-                        <Label UUID="design"/>
-                    </Category>
-                </Info>
-            </File>
-            <File Location="simpleSort.m">
-                <Info>
-                    <Category UUID="FileClassCategory">
-                        <Label UUID="design"/>
-                    </Category>
-                </Info>
-            </File>
-        </File>
-        <File Location="helperFunctions">
-            <Info/>
-            <DIR_SIGNIFIER Location="1">
-                <Info/>
-            </DIR_SIGNIFIER>
-            <File Location="mustBeNumDimensionsBetween.m">
-                <Info>
-                    <Category UUID="FileClassCategory">
-                        <Label UUID="convenience"/>
-                    </Category>
-                </Info>
-            </File>
-        </File>
         <File Location="projectUtilities">
             <Info/>
             <DIR_SIGNIFIER Location="1">
@@ -214,6 +147,33 @@
                 </Info>
             </File>
         </File>
+        <File Location="code">
+            <Info/>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="isLeapYear.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="rockPaperScissors.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="simpleSort.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
         <File Location="WorkshopGuide.pdf">
             <Info>
                 <Category UUID="FileClassCategory">
@@ -226,23 +186,14 @@
         <Info Name="Generating-Tests-for-Your-MATLAB-Code-Workshop"/>
     </Info>
     <ProjectPath Location="Root">
+        <Reference Location="1ac5db08-f2be-444f-b938-da409089495e">
+            <Info Ref="code" Type="Relative"/>
+        </Reference>
         <Reference Location="51b3a057-cf81-438b-a326-e7db137bc5e0">
             <Info Ref="projectUtilities" Type="Relative"/>
         </Reference>
-        <Reference Location="931ba488-2e1a-4bab-adf3-616fc4890879">
-            <Info Ref="helperFunctions" Type="Relative"/>
-        </Reference>
-        <Reference Location="9d011824-15ff-47d8-af44-8e5807433ef4">
-            <Info Ref="codeAdvanced" Type="Relative"/>
-        </Reference>
         <Reference Location="9d9a3835-c20f-4bc6-9fcc-fd956c5ad93f">
             <Info Ref="tests" Type="Relative"/>
-        </Reference>
-        <Reference Location="c33f83e4-717f-40a5-a3fe-0bbceed788f7">
-            <Info Ref="codeSimple" Type="Relative"/>
-        </Reference>
-        <Reference Location="c49f48b1-a220-41a3-864c-eeedeac7e104">
-            <Info Ref="images" Type="Relative"/>
         </Reference>
         <Reference Location="f5f08618-a043-47aa-9a3c-f89d5cc4164b">
             <Info Ref="" Type="Relative"/>
