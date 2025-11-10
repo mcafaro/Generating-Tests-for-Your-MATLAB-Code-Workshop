@@ -1,4 +1,4 @@
-[![MATLAB](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml)
+[![MATLAB](https://github.com/${{github.repository}}/actions/workflows/ci.yml/badge.svg)](https://github.com/${{github.repository}}/actions/workflows/ci.yml)
 [![Tests](https://img.shields.io/badge/Tests-Open_Test_Report-blue)](tests/)
 [![Coverage](https://img.shields.io/badge/Coverage-Open_Code_Coverage_Report-orange)](coverage/)
 
