@@ -2,6 +2,7 @@
 [![Tests](https://img.shields.io/badge/Tests-Open_Test_Report-blue)](tests/)
 [![Coverage](https://img.shields.io/badge/Coverage-Open_Code_Coverage_Report-orange)](coverage/)
 
+
 # Generating Tests for Your MATLAB<sup>&reg;</sup> Code Workshop
 
 This workshop provides hands-on experience using some of MATLAB's latest software testing and automation features.
